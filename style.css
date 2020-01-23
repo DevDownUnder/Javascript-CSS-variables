@@ -12,6 +12,7 @@ img {
   /* call on variables - property: var(--variable)*/
   padding: var(--spacing);
   background: var(--base);
+  /* filter has to be specified also*/
   filter: blur(var(--blur));
 }
 

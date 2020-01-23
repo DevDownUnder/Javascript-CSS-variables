@@ -10,9 +10,9 @@
 /* We can call on these variables as per below*/
 img {
   /* call on variables - property: var(--variable)*/
-  padding: var(--base);
-  background: var(--spacing);
-  filter: var(--blur);
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
 }
 
 .hl {

@@ -1,16 +1,33 @@
+/*CSS Variables */
+/* highest level of selector */
+:root {
+  /* CSS custom variable selectors are signified with the -- */
+  --base: #ffc600;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+/* We can call on these variables as per below*/
+img {
+  padding: var(--base);
+  background: var(--spacing);
+  filter: var(--blur);
+}
+
+/* Standard CSS */
 body {
-    text-align: center;
-    background: #193549;
-    color: white;
-    font-family: 'helvetica neue', sans-serif;
-    font-weight: 100;
-    font-size: 50px;
-  }
+  text-align: center;
+  background: #193549;
+  color: white;
+  font-family: "helvetica neue", sans-serif;
+  font-weight: 100;
+  font-size: 50px;
+}
 
-  .controls {
-    margin-bottom: 50px;
-  }
+.controls {
+  margin-bottom: 50px;
+}
 
-  input {
-    width: 100px;
-  }
+input {
+  width: 100px;
+}
